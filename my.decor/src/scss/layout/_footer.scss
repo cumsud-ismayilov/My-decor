@@ -1,0 +1,207 @@
+footer {
+    .container {
+        .row {
+
+            border-bottom: 1px dashed #E5E5E5;
+            padding-bottom: 51px;
+
+            .trend-text {
+                h3 {
+                    font-family: "Manrope", sans-serif;
+                    color: #161616;
+                    font-size: 21px;
+                    font-weight: 600;
+                    margin: 0;
+                }
+            }
+
+            .trend-tittle {
+                  @media screen and (max-width: 768px){
+                               flex-wrap: wrap;
+                         }
+                display: flex;
+                gap: 13px;
+
+                p {
+                    color: rgb(112, 112, 112);
+                    font-family: "Roboto", sans-serif;
+                    font-size: 13px;
+                    width: 102px;
+                    height: 37px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid rgb(229, 229, 229);
+                    border-radius: 13px;
+                    cursor: pointer;
+                    transition: 0.5s ease-in-out;
+                    margin: 0;
+
+                    &:hover {
+                        border: 1px solid black;
+                    }
+                }
+            }
+
+            .trend-tittle2 {
+                 @media screen and (max-width: 768px){
+                               flex-wrap: wrap;
+                         }
+                display: flex;
+                gap: 13px;
+                padding-top: 8px;
+
+                p {
+                    color: rgb(112, 112, 112);
+                    font-family: "Roboto", sans-serif;
+                    font-size: 13px;
+                    width: 102px;
+                    height: 37px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid rgb(229, 229, 229);
+                    border-radius: 13px;
+                    cursor: pointer;
+                    transition: 0.5s ease-in-out;
+                    margin: 0;
+
+                    &:hover {
+                        border: 1px solid black;
+                    }
+                }
+            }
+        }
+
+        .row {
+            .need {
+                p {
+                    font-family: "Manrope", sans-serif;
+                    color: #161616;
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin: 0;
+                    font-family: "Manrope", sans-serif;
+                    color: #161616;
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin: 0;
+                }
+
+                h3 {
+                    font-family: Jost, sans-serif;
+                    font-size: 16px;
+                    color: #707070;
+                    padding-top: 4px;
+                }
+            }
+
+            .contact-icon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+
+                .fa-facebook-f {
+                    background-color: #3b5998;
+                    color: #fff;
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+
+                .fa-instagram {
+                    background-color: #c5255f;
+                    color: #fff;
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+
+                .fa-twitter {
+                    background-color: #1da1f2;
+                    color: #fff;
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+
+                .fa-youtube {
+                    background-color: #cd201f;
+                    color: #fff;
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+            }
+
+            .pay-img {
+                 @media screen and (max-width: 768px){
+                             height: 30px;
+                         }
+                width: 100%;
+                height: 35px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .row {
+            // border-bottom: none;
+            padding-bottom: 35px;
+            .reserved {
+                p {
+                    font-family: Jost, sans-serif;
+                    font-size: 13px;
+                    color: #707070;
+
+                    span {
+                        color: #a20402;
+                    }
+                }
+            }
+
+            .term {
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                gap: 23px;
+
+                p {
+                    font-family: Jost, sans-serif;
+                    font-size: 13px;
+                    color: #707070;
+                    cursor: pointer;
+                    transition: .3s ease-in-out;
+
+                    &:hover {
+                        color: #a20402;
+                    }
+                }
+            }
+
+        }
+    }
+}

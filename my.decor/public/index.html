@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../src/scss/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="shortcut icon"
+        href="https://mydecor-be87.kxcdn.com/mydecor/wp-content/themes/mydecor/images/favicon.ico" />
+    <title>My Decor</title>
+</head>
+
+<body>
+    <div id="cursor">
+        
+    </div>
+    <div class="to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75L12 3m0 0l3.75 3.75M12 3v18" />
+          </svg>
+          
+          
+    </div>
+ <nav class="desktop-nav">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 g-3">
+                <div class="nav-top">
+                    <div class="menu-icon">
+                        <i class="bi bi-list menu-open">
+                            <div class="menu-list menulist">
+                                <div class="menu-top">
+                                    <img src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/themes/mydecor/images/logo.png" alt="">
+                                    <i class="bi bi-x-lg"></i>
+                                </div>
+                                <div class="menu-mid">
+                                    <ul>
+                                        <li class="eng">English<i class="bi bi-chevron-down"></i></li>
+                                        <li class="usd">USD<i class="bi bi-chevron-down"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="menu-mid2">
+                                    <p>Furniture<i class="bi bi-plus-lg"></i></p>
+                                    <p>Outdoor<i class="bi bi-plus-lg"></i></p>
+                                    <p>Decor & Pillows<i class="bi bi-plus-lg"></i></p>
+                                    <p>Applinces<i class="bi bi-plus-lg"></i></p>
+                                    <p>Bed & Bath<i class="bi bi-plus-lg"></i></p>
+                                    <p>Baby & Kids<i class="bi bi-plus-lg"></i></p>
+                                </div>
+                                <div class="menu-end">
+                                    <p><i class="bi bi-eye"></i>Recently Viewed Products</p>
+                                    <p><i class="bi bi-postcard"></i>Track Order</p>
+                                </div>
+                            </div>
+                        </i>
+                    </div>
+                    <div class="decor-img">
+                        <img src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/themes/mydecor/images/logo.png" alt="">
+                    </div>
+                    <div class="decor-icon">
+                        <i class="bi bi-search opensearch">
+                            <div class="search-div-main openlist">
+                               
+                                <div class="search-div">
+                                    <i class="bi bi-x-lg closesearch"></i>
+                                    <p>Search For Products</p>
+                                    <form>
+                                        <input type="text" name="search" id="search" class="search" placeholder="Search for products">
+                                        
+                                    </form>
+                                    <ul class="pop">
+                                        <li class="popular">Popular searches</li>
+                                        <li class="outdoor">Furniture</li>
+                                        <li class="outdoor">Sofa</li>
+                                        <li class="outdoor">Outdoor</li>
+                                        <li class="outdoor">Living room</li>
+                                        <li class="outdoor">Bedroom</li>
+                                        <li class="outdoor">Bathroom</li>
+                                        <li class="outdoor">Offices</li>
+                                    </ul>
+                                </div> 
+                            </div>
+                        </i>
+                        <i class="bi bi-person"></i>
+                        <i class="bi bi-heart"></i>
+                        <i class="bi bi-bag-fill"></i>
+                    </div>
+                </div>
+                <div class="nav-bottom">
+                    <ul class="desktop-ul">
+                        <li class="home">Homepages<i class="bi bi-chevron-down"></i></li>
+                        <li class="shop">Shop<i class="bi bi-chevron-down"></i></li>
+                        <li class="product">Product<i class="bi bi-chevron-down"></i></li>
+                        <li class="blog">Blog<i class="bi bi-chevron-down"></i></li>
+                        <li class="pages">Pages<i class="bi bi-chevron-down"></i></li>
+                        <li class="contact">Contact Us</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </nav>
+ <main>
+    <section id="banner">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="actv2" aria-label="Slide 2"></button>
+             
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1549187774-b4e9b0445b41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" class="d-block w-100" alt="...">
+              <div class="luxury-sofa">
+                 <p>Luxury Sofa import from Italy</p>
+                 <h3>New Collection</h3>
+                 <button>SHOP NOW <i class="bi bi-arrow-right"></i></button>
+              </div>  
+            </div>
+              <div class="carousel-item carousel-item2">
+                <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=958&q=80" alt="...">
+                <div class="luxury-chair">
+                    <p>Luxury Chair import from US</p>
+                    <h3>Bedroom Chair</h3>
+                    <button>SHOP NOW <i class="bi bi-arrow-right"></i></button>
+                 </div>
+            </div>
+             
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
+    </section>
+    <section id="products">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 g-5">
+                    <div class="prod1">
+                        <div class="prod-item1">
+                            <p>Furniture</p>
+                            <ul>
+                                <li>Furniture</li>
+                                <li>Bathroom</li>
+                                <li>Bedroom</li>
+                                <li>Kitchen</li>
+                                <li>Living Room</li>
+                                <li>Offices</li>
+                            </ul>
+                        </div>
+                        <div class="prod-item2">
+                            <p>Outdoor</p>
+                            <ul>
+                                <li>Outdoor</li>
+                                <li>Fencing & Flooring</li>
+                                <li>Garden</li>
+                                <li>Outdoor & Patio</li>
+                                <li>Outdoor Decor</li>
+                               
+                            </ul>
+                        </div>
+                        <div class="prod-item3">
+                            <p>Decor & Pillows</p>
+                            <ul>
+                                <li>Decor & Pillows</li>
+                                <li>Art</li>
+                                <li>Flowers & Plants</li>
+                                <li>Rugs</li>
+                                <li>Wall Decor</li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 g-5">
+                    <div class="prod-img1">
+                        <img src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/10/categories-list1-home03.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 g-5">
+                    <div class="prod-img2">
+                        <img src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/10/categories-list2-home03.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6 g-5">
+                    <div class="prod2">
+                        <div class="prod-item1">
+                            <p>Appliances</p>
+                            <ul>
+                                <li>Appliances</li>
+                                <li>Heating & Cooling</li>
+                                <li>Kitchen Appliances</li>
+                                <li>Vacuums & Cleaners</li>
+                                <li>Washers & Dryers</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="prod-item2">
+                            <p>Bed & Bath</p>
+                            <ul>
+                                <li>Bed & Bath</li>
+                                <li>Bathroom Decor</li>
+                                <li>Bathroom Fixtures</li>
+                                <li>Bedding</li>
+                                <li>Shower Accessories</li>
+                               
+                            </ul>
+                        </div>
+                        <div class="prod-item3">
+                            <p>Baby & Kids</p>
+                            <ul>
+                                <li>Baby & Kids</li>
+                                <li>Backyard Play</li>
+                                <li>Kids Playroom</li>
+                                <li>Kids Storage</li>
+                                <li>Nursery Bedding</li>
+                                <li>Nursery Furniture</li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="elementor">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 g-5">
+                    <div class="elementor-imgs1">
+                      <div class="col-xl-6">
+                         <div class="elem-img1">
+                            <img src="https://images.unsplash.com/photo-1572427734596-97f893e2536c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                         <div class="rugs-hover">
+                            <h3>Mini Rugs</h3>
+                            <h4>From $50</h4>
+                         </div> 
+                        </div>
+                      </div>
+                      <div class="col-xl-6">
+                         <div class="elem-img2">
+                            <img src="https://images.unsplash.com/photo-1579326882518-21eaa7893b02?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1826&q=80" alt="">
+                            <div class="lamp-hover">
+                                <h3>Sale 50% off</h3>
+                                <h4>Table Lamp</h4>
+                             </div> 
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 g-5">
+                    <div class="elem-imgs3">
+                        <img src="https://plus.unsplash.com/premium_photo-1676890863093-b944dda91e23?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+                        <div class="sideboards-hover">
+                            <h3>Top Rated Sideboards</h3>
+                            <h4>Under $150</h4>
+                           <p><i class="bi bi-arrow-right"></i></p>
+                         </div> 
+                    </div>
+                </div>
+                <div class="col-xl-4 g-5">
+                    <div class="elementor-imgs2">
+                        <div class="col-xl-6">
+                           <div class="elem-img1">
+                              <img src="https://images.unsplash.com/photo-1589241534732-26031c00f37c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGFwcGxpYW5jZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                              <div class="appliances-hover">
+                                <h3>Appliances</h3>
+                                <h4>For Kitchen</h4>
+                             </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                           <div class="elem-img2">
+                              <img src="https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80" alt="">
+                              <div class="office-hover">
+                                <h3>Office Chairs</h3>
+                                <h4>New Style</h4>
+                             </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="brands">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 g-5">
+                    <div class="brand-imgs">
+                        <div class="decor-img">
+                            <img src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2015/01/brand-6.png" alt="">
+                        </div>
+                        <div class="modern-img">
+                            <img src="	https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2015/01/brand-5.png" alt="">
+                        </div>
+                        <div class="mappe-img">
+                            <img src="	https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2015/01/brand-4.png" alt="">
+                        </div>
+                        <div class="furnit-img">
+                            <img src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2015/01/brand-3.png" alt="">
+                        </div>
+                        
+                        <div class="cozy-img">
+                            <img src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2015/01/brand-2.png" alt="">
+                        </div>
+                        <div class="luxury-img">
+                            <img src="	https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2015/01/brand-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                    
+                    
+            </div>
+        </div>
+    </section>
+    <section id="flash-sale">
+       <div class="container">
+          <div class="row">
+              <div class="col-xl-12 g-5">
+                   <div class="daily-text">
+                      <p class="text1">Daily Flash Sale!</p>
+                      <p class="sale-time">
+                        <i class="bi bi-clock"></i>
+                        <span>09h : 15m : 12s</span>
+                      </p>
+                   </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-3 g-3">
+                <div class="cards">
+                    <div class="cards-top">
+                        <img src="	https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/01/9-450x450.jpg" alt="">
+                        <i class="bi bi-clock"></i>
+                        <div class="quick-view">
+                            <button>Quick view</button>
+                        </div>
+                    </div>
+                    <div class="cards-bottom">
+                        <h2>N200X Modern Style Chairs</h2>
+                        <div class="product-price">
+                            <del>$ 150.00</del>
+                            <p>$ 129.00</p>
+                        </div>
+                        <div class="card-end">
+                            <h3><i class="bi bi-plus-lg"></i>Read more</h3>
+                            <div class="end-icon">
+                                <i class="bi bi-heart"></i>
+                                <i class="bi bi-shuffle"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 g-3">
+                <div class="cards">
+                    <div class="cards-top">
+                        <img src="	https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/01/18-450x450.jpg" alt="">
+                        <i class="bi bi-clock"></i>
+                        <div class="quick-view">
+                            <button>Quick view</button>
+                        </div>
+                    </div>
+                    <div class="cards-bottom">
+                        <h2>Bed Full Set from Italia</h2>
+                        <div class="product-price">
+                            <del>$ 150.00</del>
+                            <p>$ 129.00</p>
+                        </div>
+                        <div class="card-end">
+                            <h3><i class="bi bi-plus-lg"></i>Read more</h3>
+                            <div class="end-icon">
+                                <i class="bi bi-heart"></i>
+                                <i class="bi bi-shuffle"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 g-3">
+                <div class="cards">
+                    <div class="cards-top">
+                        <img src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/01/15-450x450.jpg" alt="">
+                        <i class="bi bi-clock"></i>
+                        <div class="quick-view">
+                            <button>Quick view</button>
+                        </div>
+                    </div>
+                    <div class="cards-bottom">
+                        <h2>Table and Chair Set</h2>
+                        <div class="product-price">
+                            <del>$ 150.00</del>
+                            <p>$ 129.00</p>
+                        </div>
+                        <div class="card-end">
+                            <h3><i class="bi bi-plus-lg"></i>Read more</h3>
+                            <div class="end-icon">
+                                <i class="bi bi-heart"></i>
+                                <i class="bi bi-shuffle"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 g-3">
+                <div class="cards">
+                    <div class="cards-top">
+                        <img src="	https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/01/13-450x450.jpg" alt="">
+                        <i class="bi bi-clock"></i>
+                        <div class="quick-view">
+                            <button>Quick view</button>
+                        </div>
+                    </div>
+                    <div class="cards-bottom">
+                        <h2>Sofa Couch from Korean</h2>
+                        <div class="product-price">
+                            <del>$ 150.00</del>
+                            <p>$ 129.00</p>
+                        </div>
+                        <div class="card-end">
+                            <h3><i class="bi bi-plus-lg"></i>Read more</h3>
+                            <div class="end-icon">
+                                <i class="bi bi-heart"></i>
+                                <i class="bi bi-shuffle"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </div>
+    </section>
+    <section id="big-sale">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 g-5">
+                    <div class="sale-wrap">
+                        <div class="bigsale-content">
+                            <p>BIG SALE OFF ALL ITEMS UP TO 50% OFF</p>
+                            <div class="coming">
+                                <h3>Coming soon on September.</h3>
+                                <h4>View More</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="popular-picks">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 g-5">
+                    <div class="mydecor">
+                        <p>Popular Picks in MyDecor</p>
+                        <ul class="popular-ul">
+                            <li class="furniture">Furniture</li>
+                            <li class="pillows">Outdoor</li>
+                            <li class="pillows">Decor & Pillows</li>
+                            <li class="pillows">Appliances</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 g-3">
+                    <div class="cards">
+                        <div class="cards-top">
+                            <img src="	https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/01/1-450x450.jpg" alt="">
+                           
+                            <div class="quick-view">
+                                <button>Quick view</button>
+                            </div>
+                        </div>
+                        <div class="cards-bottom">
+                            <h2>Bar Chair With Wood Legs</h2>
+                            <div class="product-price">
+                                <del>$ 150.00</del>
+                                <p>$ 129.00</p>
+                            </div>
+                            <div class="card-end">
+                                <h3><i class="bi bi-plus-lg"></i>Read more</h3>
+                                <div class="end-icon">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-shuffle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 g-3">
+                    <div class="cards">
+                        <div class="cards-top">
+                            <img src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/01/7-450x450.jpg" alt="">
+                           
+                            <div class="quick-view">
+                                <button>Quick view</button>
+                            </div>
+                        </div>
+                        <div class="cards-bottom">
+                            <h2>Display Shelf Rack, Bookcase</h2>
+                            <div class="product-price">
+                                <del>$ 150.00</del>
+                                <p>$ 129.00</p>
+                            </div>
+                            <div class="card-end">
+                                <h3><i class="bi bi-plus-lg"></i>Read more</h3>
+                                <div class="end-icon">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-shuffle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 g-3">
+                    <div class="cards">
+                        <div class="cards-top">
+                            <img src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/01/2-450x450.jpg" alt="">
+                             <h5>Hot</h5>
+                            <div class="quick-view">
+                                <button>Quick view</button>
+                            </div>
+                        </div>
+                        <div class="cards-bottom">
+                            <h2>Bar Chair With Wood Legs</h2>
+                            <div class="product-price">
+                                <del>$ 150.00</del>
+                                <p>$ 129.00</p>
+                            </div>
+                            <div class="card-end">
+                                <h3><i class="bi bi-plus-lg"></i>Read more</h3>
+                                <div class="end-icon">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-shuffle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 g-3">
+                    <div class="cards">
+                        <div class="cards-top">
+                            <img src="	https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/01/24-450x450.jpg" alt="">
+                           
+                            <div class="quick-view">
+                                <button>Quick view</button>
+                            </div>
+                        </div>
+                        <div class="cards-bottom">
+                            <h2>Bar Chair With Wood Legs</h2>
+                            <div class="product-price">
+                                <del>$ 150.00</del>
+                                <p>$ 129.00</p>
+                            </div>
+                            <div class="card-end">
+                                <h3><i class="bi bi-plus-lg"></i>Read more</h3>
+                                <div class="end-icon">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-shuffle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 g-3">
+                    <div class="cards">
+                        <div class="cards-top">
+                            <img src="	https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/01/3-450x450.jpg" alt="">
+                           
+                            <div class="quick-view">
+                                <button>Quick view</button>
+                            </div>
+                        </div>
+                        <div class="cards-bottom">
+                            <h2>Bar Chair With Wood Legs</h2>
+                            <div class="product-price">
+                                <del>$ 150.00</del>
+                                <p>$ 129.00</p>
+                            </div>
+                            <div class="card-end">
+                                <h3><i class="bi bi-plus-lg"></i>Read more</h3>
+                                <div class="end-icon">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-shuffle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 g-3">
+                    <div class="cards">
+                        <div class="cards-top">
+                            <img src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/01/45-450x450.jpg" alt="">
+                           
+                            <div class="quick-view">
+                                <button>Quick view</button>
+                            </div>
+                        </div>
+                        <div class="cards-bottom">
+                            <h2>Bar Chair With Wood Legs</h2>
+                            <div class="product-price">
+                                <del>$ 150.00</del>
+                                <p>$ 129.00</p>
+                            </div>
+                            <div class="card-end">
+                                <h3><i class="bi bi-plus-lg"></i>Read more</h3>
+                                <div class="end-icon">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-shuffle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 g-3">
+                    <div class="cards">
+                        <div class="cards-top">
+                            <img src="	https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/01/17-450x450.jpg" alt="">
+                           
+                            <div class="quick-view">
+                                <button>Quick view</button>
+                            </div>
+                        </div>
+                        <div class="cards-bottom">
+                            <h2>Bar Chair With Wood Legs</h2>
+                            <div class="product-price">
+                                <del>$ 150.00</del>
+                                <p>$ 129.00</p>
+                            </div>
+                            <div class="card-end">
+                                <h3><i class="bi bi-plus-lg"></i>Read more</h3>
+                                <div class="end-icon">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-shuffle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 g-3">
+                    <div class="cards">
+                        <div class="cards-top">
+                            <img src="	https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/01/4-450x450.jpg" alt="">
+                           
+                            <div class="quick-view">
+                                <button>Quick view</button>
+                            </div>
+                        </div>
+                        <div class="cards-bottom">
+                            <h2>Bar Chair With Wood Legs</h2>
+                            <div class="product-price">
+                                <del>$ 150.00</del>
+                                <p>$ 129.00</p>
+                            </div>
+                            <div class="card-end">
+                                <h3><i class="bi bi-plus-lg"></i>Read more</h3>
+                                <div class="end-icon">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-shuffle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="latest-review" style="background-image: url(	https://demo.theme-sky.com/mydecor/wp-content/uploads/2021/10/bg-testimonial-home2.jpg);">
+      <div class="container">
+        <div class="row">
+            <div class="col-xl-8 g-5">
+                <div class="latest-text">
+                    <p>Latest reviews</p>
+                    <div class="slide-div">
+                        <div class="order">
+                            <h3>I ordered on Friday evening and on Monday at 12:30 the package was with me. I have never encountered such a fast order processing.</h3>
+                        <div class="person">
+                            <h1>BY DYLAN</h1>
+                            <div class="person-star">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="happy">
+                            <h3>I was very happy with the friendly customer service. Every staff member seemed to have a good understanding off all products. Very happy customer!!</h3>
+                        <div class="person">
+                            <h1>BY ISAAC</h1>
+                            <div class="person-star">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="person-img">
+                    <img src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/10/testimonial-home2.png" alt="">
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section id="online-shopping">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 g-5">
+                    <div class="large">
+                        <h2>Who we are</h2>
+                        <p>
+                            <span>Online Shopping on Furniture, Largest </span>
+                            <span>Online Mall.</span>
+                        </p>
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span>Ut enim ad minim veniam</span>, quis nostrud exercitation voluptatem accusantium tilo.</h4>
+                        <button>CONTACT US</button>
+                    </div>
+                </div>
+                <div class="col-xl-4 g-5">
+                    <div class="elementor-img3">
+                        <img src="	https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/11/home-about-us.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-4 g-5">
+                    <div class="store">
+                        <div class="spec">
+                            <div class="spec1">
+                                <p><sub>04</sub>+</p>
+                                <h5>Stores</h5>
+                            </div>
+                            <h4>spectacular world of electronics</h4>
+                        </div>
+                        <div class="quality">
+                            <div class="qua1">
+                                <p><sub>28</sub>+</p>
+                                <h5>Brands</h5>
+                            </div>
+                            <h4>of good quality and repute</h4>
+                        </div>
+                        <div class="clients">
+                            <div class="client1">
+                                <p><sub>90</sub>%</p>
+                                <h5>Happy Clients</h5>
+                            </div>
+                            <h4>we love clients</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="amazing">
+        <div class="container">
+           <div class="row">
+            <div class="col-xl-4 g-5">
+                <div class="amazing-tittle">
+                    <img src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2022/02/feature-1-2.png" alt="">
+                    <div class="amazing-text">
+                        <h2>Amazing Value Every Day</h2>
+                        <p>Items prices that fit your budget.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 g-5">
+                <div class="amazing-tittle">
+                    <img src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2022/02/feature-2-2.png" alt="">
+                    <div class="amazing-text">
+                        <h2>Free Shipping Over $35*</h2>
+                        <p>Popular delivery on 1 - 2 days </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 g-5">
+                <div class="amazing-tittle">
+                    <img src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2022/02/feature-3-2.png" alt="">
+                    <div class="amazing-text">
+                        <h2>Expert Customer Service</h2>
+                        <p>Our team on hand seven days a week.</p>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </div>
+    </section>
+    <section id="join" style="background-image: url(https://demo.theme-sky.com/mydecor/wp-content/uploads/2021/10/bg-mailchimp-2.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 g-5">
+                    <div class="newsletter-text">
+                        <h4>Join our newsletter and get…</h4>
+                        <p>Join our email subscription now to get updates on promotions and coupons.</p>
+                        <form>
+                            <input type="text" placeholder="Your email here..." class="emails" id="emails">
+                            <i class="bi bi-send-fill"></i>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ </main>
+ <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-2 g-5">
+                <div class="trend-text">
+                    <h3>Trending Tags</h3>
+                </div>
+            </div>
+            <div class="col-xl-10 g-5">
+                <div class="trend-tittle">
+                    <p>Appliances</p>
+                    <p>Baby & Kids</p>
+                    <p>Bathroom</p>
+                    <p>Bedding</p>
+                    <p>Bedroom</p>
+                    <p>Decor</p>
+                    <p style="width: 126px;">Flowers & Plants</p>
+                    <p>Funiture</p>
+                    <p>Gadern</p>
+                    <p>Kitchen</p>
+                   
+                </div>
+                <div class="trend-tittle2">
+                    <p>Lighting</p>
+                    <p>Living room</p>
+                    <p>Offices</p>
+                    <p>Outdoor</p>
+                    <p>Sofa</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 g-5">
+                <div class="need">
+                    <p>Need help? Call us: (+800) 1234 5678 90</p>
+                    <h3>Monday – Friday: 8:00 – 21:00 / Saturday 9:00 – 18:00</h3>
+                </div>
+            </div>
+            <div class="col-xl-4 g-5">
+                <div class="contact-icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+            <div class="col-xl-4 g-5">
+                <div class="pay-img">
+                    <img src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/10/payment2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-3 g-5">
+                <div class="reserved">
+                    <p>© <span>MyDecor</span> – All Rights Reserved.</p>
+                </div>
+            </div>
+            <div class="col-xl-9 g-5">
+                <div class="term">
+                    <p>Terms Of Use</p>
+                    <p>Privacy Policy</p>
+                    <p>Contact Us</p>
+                    <p>About Us</p>
+                    <p>Customer Service</p>
+                </div>
+            </div>
+        </div>
+    </div>
+ </footer>
+
+
+
+    <script src="../src/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/e6c541483e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
