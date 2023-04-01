@@ -45,7 +45,6 @@ window.addEventListener("scroll", () => {
 const ToTop = document.querySelector(".to-top");
 window.addEventListener("scroll", () => {
   if (window.scrollY > 500) {
-    // document.querySelector("body").style.background = "black";
     if (ToTop) {
       ToTop.style.display = "flex";
     }
