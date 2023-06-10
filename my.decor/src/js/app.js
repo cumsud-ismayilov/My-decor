@@ -8,12 +8,7 @@ if (item) {
  
      })
 }
-// if (item) {
-//     Close.addEventListener("click",()=>{
-//         console.log("hey");
-//         List.classList.remove("searchactive")
-//     })
-// }
+
 
 
 const MenuOpen = document.querySelector(".menu-open");
